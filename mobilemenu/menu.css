@@ -1,0 +1,58 @@
+:root{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+ }
+ body{
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1em;
+}
+.menubutton{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    width: 4em;
+    height: 4em;
+    border: none;
+    border-radius: 100%;
+    background-color:purple;
+    color:white;
+    box-shadow: 0 0 20px 0 rgba(225, 7, 174, 0.9);
+    margin: -0.2em;
+    padding: 0;
+    
+}
+.menubutton:hover{
+    cursor: pointer;
+    background-color: rgb(225, 7, 174);
+}
+.fa1{
+    margin-left: 22%;
+}
+.fa2{
+    margin-left: 22%;
+    display: none;
+}
+
+/*/----------------------------------------------------------------------*/
+.menu-items{
+    position: fixed;
+    top: 0;
+    left: -100%;
+}
